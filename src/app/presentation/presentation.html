@@ -1,0 +1,13 @@
+<div class="presentation-container">
+  <div class="message-box">
+    <h2>{{ currentItem?.title }}</h2>
+    <p>{{ currentItem?.message }}</p>
+  </div>
+
+  <div class="image-box">
+    <img [src]="currentItem?.image" alt="Imagem do restaurante" />
+
+    <button class="arrow left" (click)="prevItem()">&#10094;</button>
+    <button class="arrow right" (click)="nextItem()">&#10095;</button>
+  </div>
+</div>
