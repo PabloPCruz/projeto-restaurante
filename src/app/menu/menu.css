@@ -1,0 +1,45 @@
+.menu-container {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: center;
+}
+
+.menu-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.menu-items {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+img {\
+  width: 400;
+  height: 400px;
+}
+
+.menu-title-name {
+  margin: 20px auto 20px auto;
+  width: fit-content;
+}
+
+.menu-items-name {
+  width: fit-content;
+  margin-bottom: -30px;
+}
+
+.description {
+  margin-top: 30px;
+}
