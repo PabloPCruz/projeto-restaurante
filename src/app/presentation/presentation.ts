@@ -2,13 +2,14 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { PresentationService } from './presentation.service';
 
 @Component({
+  standalone: false,
   selector: 'app-presentation',
   templateUrl: './presentation.html',
   styleUrls: ['./presentation.css']
 })
 export class PresentationComponent implements OnInit, OnDestroy {
   currentItem: any;
-  
+
   constructor(private presentationService: PresentationService) { }
 
   ngOnInit(): void {
