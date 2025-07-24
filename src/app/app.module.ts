@@ -6,6 +6,8 @@ import { AppRoutingModule } from "./app-routing.module";
 import { HeaderModule } from "./header/header.module";
 import { PresentationModule } from "./presentation/presentation.module";
 import { MenuModule } from "./menu/menu.module";
+import { EventsModule } from "./events/events.module";
+import { ContatcsModule } from "./contacts/contacts.module";
 
 @NgModule({
     declarations: [App],
@@ -14,7 +16,9 @@ import { MenuModule } from "./menu/menu.module";
         AppRoutingModule,
         HeaderModule,
         PresentationModule,
-        MenuModule
+        MenuModule,
+        EventsModule,
+        ContatcsModule
     ],
     bootstrap: [App],
 })

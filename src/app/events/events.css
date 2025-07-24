@@ -1,0 +1,29 @@
+.events-container {
+    display: flex;
+    gap: 130px;
+}
+
+.events-content-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    width: 30%;
+}
+
+.events-content-images {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: ;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    gap: 20px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
