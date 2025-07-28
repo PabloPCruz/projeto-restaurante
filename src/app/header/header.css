@@ -3,14 +3,30 @@
   font-size: 62.5%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .main-header {
   background-color: #d6bc95;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 8px 0;
+}
+
+:host {
+  display: block;
+  padding-top: 90px;
 }
 
 .nav-list {
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
   list-style-type: none;
   justify-content: center;
   align-items: center;
@@ -19,6 +35,8 @@
 
 .nav-list-li {
   font-size: 1.2rem;
+  font-family: "Diphylleia", serif;
+  font-weight: 500;
 }
 a {
   position: relative;
@@ -45,6 +63,6 @@ a:hover::after {
 }
 
 .img-logo {
-  width: 100px;
+  width: 60px;
   height: auto;
 }

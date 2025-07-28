@@ -18,7 +18,7 @@ import { ContatcsModule } from "./contacts/contacts.module";
         PresentationModule,
         MenuModule,
         EventsModule,
-        ContatcsModule
+        ContatcsModule,
     ],
     bootstrap: [App],
 })

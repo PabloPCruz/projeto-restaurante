@@ -45,6 +45,17 @@
   padding: 2rem;
 }
 
+.menu-items-name {
+  font-family: "Kalnia", serif;
+  font-weight: 500;
+}
+
+.description {
+  font-family: "Klee One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 img {
   width: 400px;
   height: 400px;
