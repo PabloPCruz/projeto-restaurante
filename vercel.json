@@ -1,12 +1,9 @@
 {
-  "version": 2,
-  "builds": [
+  "rewrites": [
     {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "installCommand": "npm install --legacy-peer-deps"
-      }
+      "source": "/(.*)",
+      "destination": "/browser/index.html"
     }
-  ]
+  ],
+  "outputDirectory": "dist/apresentacao-restaurante-01/browser"
 }
