@@ -35,3 +35,4 @@ export class PresentationComponent implements OnInit, OnDestroy {
     this.currentItem = this.presentationService.getCurrentItem();
   }
 }
+

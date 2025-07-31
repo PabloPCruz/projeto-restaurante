@@ -1,9 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/browser/index.html"
-    }
-  ],
-  "outputDirectory": "dist/apresentacao-restaurante-01/browser"
-}
